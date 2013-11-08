@@ -248,3 +248,7 @@ blog = "4";
 
 extlinks = {'base_url' : ('http://doc.sd-demo.sourcefabric.org/resources/%s', 'api_url'),
             'liveblog_url' : ('http://doc.sd-demo.sourcefabric.org/resources/LiveDesk/Blog/'+blog+'%s', 'api_url')}
+
+sys.path.append(os.path.abspath('_themes'))
+html_theme_path = ['_themes']
+html_theme = 'kr'
